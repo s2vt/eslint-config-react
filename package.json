@@ -1,5 +1,5 @@
 {
-  "name": "react-eslint-config",
+  "name": "@ssvt/react-eslint-config",
   "version": "1.0.0",
   "description": "Eslint config for react projects",
   "main": "index.js",
