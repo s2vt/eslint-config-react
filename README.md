@@ -22,13 +22,24 @@ $ npm install --save-dev @typescript-eslint/eslint-plugin@5.11.0 @typescript-esl
 ## Getting Started
 
 패키지를 모두 설치 후 사용하고자 하는 프로젝트의 eslint 설정을 변경하면 됩니다.
+적용하고자 하는 플러그인만 extends 속성에 추가하면 됩니다.
 
-### JavaScript 프로젝트
+### Webpack 기반 / Next.js 프로젝트
 
 ```json
 {
   "extends": [
-    "@ssvt/eslint-config-react",
+    "@ssvt/eslint-config-react/default",
+  ],
+}
+```
+
+### Create React App 프로젝트
+
+```json
+{
+  "extends": [
+    "@ssvt/eslint-config-react/cra",
   ],
 }
 ```
@@ -38,7 +49,7 @@ $ npm install --save-dev @typescript-eslint/eslint-plugin@5.11.0 @typescript-esl
 ```json
 {
   "extends": [
-    "@ssvt/eslint-config-react",
+    "@ssvt/eslint-config-react/default",
     "@ssvt/eslint-config-react/typescript",
   ],
 }
@@ -49,7 +60,7 @@ $ npm install --save-dev @typescript-eslint/eslint-plugin@5.11.0 @typescript-esl
 ```json
 {
   "extends": [
-    "@ssvt/eslint-config-react",
+    "@ssvt/eslint-config-react/default",
     "@ssvt/eslint-config-react/prettier"
   ],
 }
