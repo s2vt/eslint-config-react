@@ -48,6 +48,7 @@ module.exports = {
     'react/jsx-wrap-multilines': 'off',
     'react/display-name': 'off',
     'react/jsx-no-constructed-context-values': 'off',
+    "react/jsx-no-useless-fragment":"off",
     'react/jsx-filename-extension': [
       2,
       { extensions: ['.js', '.jsx', '.ts', '.tsx'] },

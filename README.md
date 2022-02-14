@@ -16,7 +16,7 @@ Peer dependencies에 포함된 패키지를 모두 설치해야 합니다.
 ```shell
 $ npm install bitbucket:s2vt/eslint-config-react#v1.0.0
 
-$ npm install --save-dev @typescript-eslint/eslint-plugin@5.11.0 @typescript-eslint/parser@5.11.0 eslint@8.9.0 eslint-config-airbnb@19.0.4 eslint-config-prettier@8.3.0 eslint-plugin-import@2.25.4 eslint-plugin-jest@26.1.0 eslint-plugin-jsx-a11y@6.5.1 eslint-plugin-prettier@4.0.0 eslint-plugin-react@7.28.0 eslint-plugin-react-hooks@4.3.0 prettier@2.3.1
+$ npm install --save-dev @typescript-eslint/eslint-plugin@5.11.0 @typescript-eslint/parser@5.11.0 eslint@7.11.0 eslint-config-airbnb@19.0.4 eslint-config-prettier@8.3.0 eslint-plugin-import@2.25.4 eslint-plugin-jest@26.1.0 eslint-plugin-jsx-a11y@6.5.1 eslint-plugin-prettier@4.0.0 eslint-plugin-react@7.28.0 eslint-plugin-react-hooks@4.3.0 prettier@2.3.1
 ```
 
 ## Getting Started
