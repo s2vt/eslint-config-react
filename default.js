@@ -7,7 +7,6 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
   ],
-  plugins: ['jest'],
   rules: {
     'linebreak-style': 0,
     'import/prefer-default-export': 0,
@@ -55,6 +54,5 @@ module.exports = {
       { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
     ],
     'jsx-a11y/no-noninteractive-element-interactions': 0,
-    'jest/no-conditional-expect': 'off',
   },
 };
