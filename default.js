@@ -7,6 +7,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
   ],
+  plguins: ['react-hooks'],
   rules: {
     'linebreak-style': 0,
     'import/prefer-default-export': 0,
