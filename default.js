@@ -18,7 +18,6 @@ module.exports = {
     'react/prop-types': 0,
     'no-redeclare': 'off',
     'no-confusing-arrow': 'off',
-    'no-unused-vars': 'off',
     'no-console': 'off',
     'no-undef': 'off',
     'no-unsafe-optional-chaining': 'off',
