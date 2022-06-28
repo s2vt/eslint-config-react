@@ -1,10 +1,10 @@
 {
   "name": "@ssvt/eslint-config-react",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "ESLint config for react projects",
   "author": "ssvt",
   "license": "MIT",
-  "repository": "https://bitbucket.org/s2vt/eslint-config-react",
+  "repository": "https://github.com/s2vt/eslint-config-react",
   "files": [
     "default.js",
     "cra.js",
