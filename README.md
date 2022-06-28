@@ -1,5 +1,7 @@
 # @ssvt/eslint-config-react
 
+[![npm version](https://badge.fury.io/js/@ssvt%2Feslint-config-react.svg)](https://badge.fury.io/js/@ssvt%2Feslint-config-react)
+
 ## Overview
 
 [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) 기반으로 커스터마이징 한 react 프로젝트용 eslint config 레포지토리입니다.
