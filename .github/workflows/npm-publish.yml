@@ -1,0 +1,26 @@
+name: Node.js Package
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  bump-version-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: git config --global user.email "changhyun.kim@ssvt.co.kr"
+      - run: git config --global user.name "ChangHyunKmov"
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: https://registry.npmjs.org/
+      - uses: actions/upload-artifact@v2
+        with:
+          path: ./
+      - run: npm version patch
+      - run: git push origin master --tags
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
