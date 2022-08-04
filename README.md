@@ -17,6 +17,13 @@ $ npm install --save-dev @ssvt/eslint-config-react
 $ npm install --save-dev @typescript-eslint/eslint-plugin@5.11.0 @typescript-eslint/parser@5.11.0 eslint@7.11.0 eslint-config-airbnb@19.0.4 eslint-config-prettier@8.3.0 eslint-plugin-import@2.25.4 eslint-plugin-jest@26.1.0 eslint-plugin-jsx-a11y@6.5.1 eslint-plugin-prettier@4.0.0 eslint-plugin-react@7.28.0 eslint-plugin-react-hooks@4.3.0 prettier@2.3.1
 ```
 
+### npm 5+
+npm 5+ 이상에서는 `install-peerdeps`를 이용해서 peer dependencies를 자동으로 설치할 수 있습니다.
+
+```shell
+$ npx install-peerdeps --dev eslint-config-kimbiyam-react
+```
+
 ## Getting Started
 
 패키지를 모두 설치 후 사용하고자 하는 프로젝트의 eslint 설정을 변경하면 됩니다.
