@@ -24,6 +24,9 @@ npm 5+ 이상에서는 `install-peerdeps`를 이용해서 peer dependencies를 �
 $ npx install-peerdeps --dev eslint-config-kimbiyam-react
 ```
 
+### npm 7+
+npm 7+ 이상에서는 peer dependency들이 자동으로 설치 되기 때문에 해당 패키지만 설치하면 됩니다.
+
 ## Getting Started
 
 패키지를 모두 설치 후 사용하고자 하는 프로젝트의 eslint 설정을 변경하면 됩니다.
