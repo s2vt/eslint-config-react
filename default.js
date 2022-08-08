@@ -50,6 +50,7 @@ module.exports = {
     'react/display-name': 'off',
     'react/jsx-no-constructed-context-values': 'off',
     'react/jsx-no-useless-fragment': 'off',
+    'react/no-unstable-nested-components': 'off',
     'react/jsx-filename-extension': [
       2,
       { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
