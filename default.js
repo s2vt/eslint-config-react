@@ -40,7 +40,6 @@ module.exports = {
     '@typescript-eslint/no-redeclare': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/no-unescaped-entities': 'off',
-    'react-hooks/exhaustive-deps': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-curly-newline': 'off',
     'react/require-default-props': 'off',
