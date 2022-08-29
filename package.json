@@ -1,6 +1,6 @@
 {
   "name": "@ssvt/eslint-config-react",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "ESLint config for react projects",
   "author": "ssvt",
   "license": "MIT",
