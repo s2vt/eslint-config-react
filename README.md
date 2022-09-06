@@ -21,7 +21,7 @@ $ npm install --save-dev @typescript-eslint/eslint-plugin@5.11.0 @typescript-esl
 npm 5+ 이상에서는 `install-peerdeps`를 이용해서 peer dependencies를 자동으로 설치할 수 있습니다.
 
 ```shell
-$ npx install-peerdeps --dev eslint-config-kimbiyam-react
+$ npx install-peerdeps --dev @ssvt/eslint-config-react
 ```
 
 ### npm 7+
