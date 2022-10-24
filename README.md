@@ -8,6 +8,8 @@
 
 ## Installation
 
+### Webpack, Vite, Next.JS 등의 환경
+
 해당 패키지와 함께
 Peer dependencies에 포함된 패키지를 모두 설치해야 합니다.
 
@@ -15,6 +17,13 @@ Peer dependencies에 포함된 패키지를 모두 설치해야 합니다.
 $ npm install --save-dev @ssvt/eslint-config-react
 
 $ npm install --save-dev @typescript-eslint/eslint-plugin@5.11.0 @typescript-eslint/parser@5.11.0 eslint@7.11.0 eslint-config-airbnb@19.0.4 eslint-config-prettier@8.3.0 eslint-plugin-import@2.25.4 eslint-plugin-jest@26.1.0 eslint-plugin-jsx-a11y@6.5.1 eslint-plugin-prettier@4.0.0 eslint-plugin-react@7.28.0 eslint-plugin-react-hooks@4.3.0 prettier@2.3.1
+```
+
+### Create React App 환경
+
+Create React App로 프로젝트를 시작하면 eslint 패키지가 자동으로 설치되므로 해당 패키지만 설치하면 됩니다
+```shell
+$ npm install --save-dev @ssvt/eslint-config-react
 ```
 
 ### npm 5+
